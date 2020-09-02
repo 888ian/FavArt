@@ -1,0 +1,110 @@
+body {
+  background: repeating-linear-gradient(45deg, #ff6f3c, #ff9a3c);
+  color: whitesmoke;
+  margin: 0;
+  font-family: Calibri, sans-serif; /*Font*/
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  display: flex;
+  width: 100%; /* Full width */
+  background: #ffc93c;
+  margin-bottom: 0px;
+}
+
+footer p {
+  font-size: 12px;
+  color: black;
+}
+footer a {
+  font-size: 20px;
+}
+nav ul li {
+  display: inline;
+  margin: 1vh;
+}
+
+.vid {
+  /*position: relative;
+  left: -70%;
+  bottom: 10%;*/
+  padding-left: 10px;
+  flex-direction: row;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #155263;
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border-bottom: 2px solid honeydew;
+}
+
+.links {
+  background-color: #193c46;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  display: inline;
+  color: whitesmoke;
+  text-shadow: -0.3vh 0.3vh 0.5vh grey;
+  text-decoration: none;
+  max-width: 20%; /*tengo 5 links*/
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #3f9db8;
+  color: black;
+}
+.navbar h1 {
+  font-size: 60px;
+  text-shadow: -0.3vh 0.3vh 0.5vh rgba(235, 201, 90, 0.911);
+}
+
+/*Queria hacer un slideshow y lo deje en pausa porque tenia que arreglar cosas mas basicas*/
+.slideshow {
+  margin: 10px;
+  padding-right: 15px;
+}
+
+.mySlides {
+  width: 100%;
+}
+
+.maintext p {
+  float: left;
+  box-sizing: border-box;
+  border: 3px dashed green;
+  vertical-align: middle;
+}
+
+.logo {
+  /*max-width: 10%;*/ /*Ahora le doy un tamaño en el htmk*/
+  float: right;
+  margin: 0;
+}
+
+
+
+/*footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #ffc93c;
+  margin-bottom: auto;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  display: block;
+  text-align: center; /* center the text */
+ /* white text color */

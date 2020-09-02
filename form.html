@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MtG:Questionnaire</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styleform.css" />
+</head>
+
+<body>
+    <div class="navbar">
+       <!--<img src="https://bluef00t.neocities.org/music/imgs/lemonlogo.png" />-->
+       <h1>Magic the Gathering Questionnaire</h1>
+        <nav>
+            <ul>
+                <li><a target="_self" href="index.html">Home</a>
+                </li>
+                <li><a target="_blank" href="https://www.reddit.com/r/lemondemon/top/?t=all">Subreddit</a>
+                </li>
+                <li><a target="_blank" href="http://www.lemondemon.com/">Website</a>
+                </li>
+                <li><a target="_blank" href="https://en.wikipedia.org/wiki/Lemon_Demon">Wikipedia</a>
+                </li>
+                </li>
+                <li><a target="_blank" href="form.html">MtG Questionnaire</a>
+                </li>
+                <li><a href="#">Go to top</a>
+                </li>
+
+            </ul>
+    </div>
+
+<p>
+    
+</p>
+
+<p>
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="DCI">DCI:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+    </form>
+</p>
+    <p>
+    <form action="/action_page.php" method="get">
+        <label for="country">Country</label>
+        <span style="color: red !important; display: inline; float: none;">*</span>
+
+        <select class="dbip-auto-select-country">
+            <option value="AF">Afghanistan</option>
+            <option value="AX">Åland Islands</option>
+            <option value="AL">Albania</option>
+            <option value="AR">Argentina</option>           
+            <option value="ZW">Zimbabwe</option>
+        </select>
+    </form>
+</p>
+    <p>
+        <form action="/action_page.php" method="get">
+            <input type="radio" id="male" name="gender" value="male" checked="checked" />
+            <label for="male">Male</label><br />
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label><br />
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label><br /><br />
+        </form>
+    </p>
+<section>
+    <p>
+        <form action="/action_page.php" method="get">
+            <input type="checkbox" name="format1" value="Standard" />
+            <label for="format1"> Standard</label><br />
+            <input type="checkbox" name="format2" value="Modern" />
+            <label for="format2"> Modern</label><br />
+            <input type="checkbox" name="format3" value="Pioneer" />
+            <label for="format3"> Pioneer</label><br />
+            <input type="checkbox" name="format4" value="Pauper" />
+            <label for="format4"> Pauper</label><br />
+            <input type="checkbox" name="format5" value="Legacy" />
+            <label for="format5"> Legacy</label><br />
+            <input type="checkbox" name="format6" value="EDH" checked />
+            <label for="format6"> Commander/Edh</label><br /><br />
+        </form>
+    </p>
+    </section>
+<div class="submitF">
+    <form action="7action-page.php" method="GET">
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+    <footer id="footer">
+        <p><a href="#">Go to Top</a>
+        </p>
+    </footer>
+</body>
+
+</html>

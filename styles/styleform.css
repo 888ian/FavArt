@@ -1,0 +1,128 @@
+
+header {
+  width: 100%;
+  top: 0;
+  display: block;
+ /* padding: 80px;*/
+  text-align: center; /* center the text */
+  color: white; /* white text color */
+}
+
+body {
+  background: repeating-linear-gradient(45deg, #ff6f3c, #ff9a3c);
+  color: whitesmoke;
+  margin: 0;
+  display: grid;
+  place-items: center;    
+  font-family: Calibri, sans-serif; /*Font*/
+  /*padding-top: 30px;*/
+}
+
+main {
+  display: flex;
+}
+
+.maintext {
+ /* position: absolute;*/
+  /*left: 150px;*/
+  /*width: 10%;*/
+  float: left;
+  /*height: 10%;*/
+  border: 3px solid green;
+}
+
+img {
+  max-width: 10%;
+  height: auto;
+  width: auto;
+  margin-bottom: -4px;
+  float: right;
+  margin: 0 auto;
+}
+
+nav ul li {
+  display: inline;
+  margin: 1vh;
+  list-style-type: none;
+}
+
+.fname{
+  width: 10% !important;
+  float: left;
+}
+
+.submitF {
+  width: auto;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #155263;
+  /*position: fixed;  Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+  border-bottom: 2px solid honeydew;
+} 
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 1px 10px;
+  text-shadow: -0.3vh 0.3vh 0.5vh grey;
+  text-decoration: none;
+}
+.navbar h1 {
+  font-size: 60px;
+  text-shadow: -0.3vh 0.3vh 0.5vh rgba(235, 201, 90, 0.911);
+}
+
+.navbar p{
+
+  background-size: 1px;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+/* The navigation bar */
+footer {
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the bottom of the page */
+  width: 100%; /* Full width */
+  background: #ffc93c;
+  margin-bottom: auto;
+
+}
+
+footer p {
+  font-size: 12px;
+  color: black;
+}
+footer a {
+  font-size: 20px;
+}
+
+
+form {
+  overflow: hidden;
+  color: white;
+  display: block;
+  margin-top: 0em;
+  border-style: dashed;
+  border-width: 3px;
+  border-left-width: 3px;
+  border-right-width: 3px;
+  border-color: black;
+}
+
+
+
